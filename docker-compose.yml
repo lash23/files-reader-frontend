@@ -1,0 +1,9 @@
+version: "3"
+services:
+    front-end-files-reader:
+      build:
+        context: .
+        dockerfile: Dockerfile.dev
+      container_name: front-end-files-reader
+      ports:
+        - "5173:5173"

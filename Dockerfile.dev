@@ -1,0 +1,8 @@
+FROM node:16-alpine
+RUN mkdir /frontend
+COPY package.json /frontend
+WORKDIR /frontend
+RUN npm i
+COPY . .
+EXPOSE 5173
+CMD ["npm", "run", "dev"]

@@ -1,0 +1,9 @@
+.app-container {
+  margin: 2.5rem 2.5rem 0;
+}
+
+.spinner-grow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
