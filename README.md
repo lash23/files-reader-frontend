@@ -26,4 +26,4 @@ The goal of this project is to apply these concepts in order to provide an SPA w
 3. Start front-end app: `npm run start` (front-end server will run at http://127.0.0.1/:5173/ unless your 5173 port were already busy)
 
 ### Run using Docker
-Optionally you could start the back-end server using Docker by running: `docker-compose up --build` (then back-end server will run at http://127.0.0.1/:5173/)
+Optionally you could start the front-end server using Docker by running: `docker-compose up --build` (then front-end server will run at http://127.0.0.1/:5173/)
